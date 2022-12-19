@@ -1,0 +1,53 @@
+section.sabo h3{
+    text-align: center;
+    color: yellow;
+    font-size: 22px;
+    text-shadow: 2px 2px 5px;
+}
+div.container-sabo{
+    display: flex;
+    /*border: 2px solid black;*/
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+}
+div.container-sabo div{
+    text-align: center;
+    color: whitesmoke;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+}
+.image{
+    width: 250px;
+    height: 220px;
+}
+section.form h3{
+    text-align: center;
+    color: yellow;
+    font-size: 22px;
+    text-shadow: 2px 2px 5px;
+}
+div.container-form{
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.container-form input{
+    border-radius: 6px;
+}

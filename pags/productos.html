@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/style-product.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <p id="pas">Pastelería "Shugii"</p>
+            <p><a href="../index.html">Inicio</a></p>
+            <p><a href="../pags/productos.html">Productos</a></p>
+            <p><a href="../pags/administrador.html">Administrador</a></p>
+        </div>
+    </section>
+    <section class="sabo">
+        <h3>Sabores disponibles en nuestra tienda.</h3>
+        <div class="container-sabo">
+            <div>
+                <p>Vainilla: $350</p>
+                <img class="image" src="../img/pastel-vainilla.jpg" alt="Pastel-Vainilla">
+            </div>
+            <div>
+                <p>Chocolate: $300</p>
+                <img class="image" src="../img/pastel-chocolate.jpg" alt="Pastel-Choco">
+            </div>
+            <div>
+                <p>Fresa: $320</p>
+                <img class="image" src="../img/pastel-fresa.jpg" alt="Pastel-Fresa">
+            </div>
+            <div>
+                <p>Limón: $380</p>
+                <img class="image" src="../img/pastel-limon.jpg" alt="Pastel-Limon">
+            </div>
+        </div>
+    </section>
+    <section class="sabo">
+        <h3>Adornos que puedes elegir para decorar tu pastel.</h3>
+        <div class="container-sabo">
+            <div>
+                <p>Adorno de dinosaurio: $120</p>
+                <img class="image" src="../img/Adorno-Dino.jpg" alt="Adorno-Dino">
+            </div>
+            <div>
+                <p>Adorno de flores: $100</p>
+                <img class="image" src="../img/Adorno-Letras.jpg" alt="Adorno-Flor">
+            </div>
+            <div>
+                <p>Adorno de números: $70</p>
+                <img class="image" src="../img/Adorno-Numeros.jpg" alt="Adorno-Numeros">
+            </div>
+            <div>
+                <p>Adorno de pajaritos: $180</p>
+                <img class="image" src="../img/Adorno-Pajaros.jpg" alt="Adorno-Pajaros">
+            </div>
+            <div>
+                <p>Adorno de payasito: $80</p>
+                <img class="image" src="../img/Adorno-Payaso.jpg" alt="Adorno-Payaso">
+            </div>
+            <div>
+                <p>Adorno de unicornio: $120</p>
+                <img class="image" src="../img/Adorno-uni.jpg" alt="Adorno-Unicornio">
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <h3>Ingrese los datos del pedido</h3>
+        <div class="container-form">
+            <form action="">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre.." required><br>
+                <label for="tel">Telefono:</label><br>
+                <input type="tel" id="tel" name="tel" placeholder="Digite su télefono.." maxlength="10" required><br>
+                <label for="correo">Correo electrónico:</label><br>
+                <input type="email" id="correo" name="correo" placeholder="Escriba su correo.." required><br>
+                <label for="info">Describe el pastel que quieres:</label><br>
+                <input type="text" id="info" name="info" placeholder="Escribe una descripción.."><br>
+                <label>Sabores que deseas:</label><br>
+                <label for="vainilla">Vainilla:</label>
+                <input type="checkbox" id="vainilla" name="vainilla" value="vainilla">
+                <label for="choco">Chocolate:</label>
+                <input type="checkbox" id="choco" name="choco" value="choco">
+                <label for="fresa">Fresa:</label>
+                <input type="checkbox" id="fresa" name="fresa" value="fresa">
+                <label for="limon">Limón:</label>
+                <input type="checkbox" id="limon" name="limon" value="limon"><br>
+                <label>Adornos que deseas:</label><br>
+                <label for="dino">Dinosaurio:</label>
+                <input type="checkbox" id="dino" name="dino" value="dino">
+                <label for="flores">Flores:</label>
+                <input type="checkbox" id="flores" name="flores" value="flores">
+                <label for="nume">Numeros:</label>
+                <input type="checkbox" id="nume" name="nume" value="numeros">
+                <label for="paja">Pajaritos:</label>
+                <input type="checkbox" id="paja" name="paja" value="pajaros">
+                <label for="paya">Payasito:</label>
+                <input type="checkbox" id="paya" name="paya" value="payasito">
+                <label for="uni">Unicornio:</label>
+                <input type="checkbox" id="uni" name="uni" value="unicornio"><br><br>
+                <input type="submit" value="Enviar pedido">
+            </form>
+        </div>    
+    </section>
+</body>
+</html>
